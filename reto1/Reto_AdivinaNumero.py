@@ -35,12 +35,12 @@ def jugar() -> None:
     intentos: int = 0
     adivinado: bool = False
 
-    print("============================================")
+    print("______________________________________________")
     print("   BIENVENIDO AL JUEGO: ADIVINA EL NÚMERO  ")
-    print("============================================")
+    print("______________________________________________")
     print(f"He pensado un número entre 1 y 100.")
     print(f"Tienes {MAX_INTENTOS} intentos para adivinarlo.")
-    print("============================================\n")
+    print("______________________________________________\n")
 
     # Ciclo principal del juego
     while intentos < MAX_INTENTOS and not adivinado:
@@ -71,11 +71,11 @@ def jugar() -> None:
 
     # Si se agotaron los intentos sin adivinar
     if not adivinado:
-        print("\n============================================")
+        print("\n______________________________________________")
         print("¡Se acabaron los intentos!")
         print(f"El número secreto era: {numero_secreto}")
         print("¡Mejor suerte la próxima vez!")
-        print("============================================")
+        print("______________________________________________")
 
     print("\nGracias por jugar. ¡Hasta la próxima!")
 
