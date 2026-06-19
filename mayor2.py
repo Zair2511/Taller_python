@@ -4,9 +4,6 @@ if __name__ == "__main__":
     b:int
     a = input("Ingrese el valor de a: ")
     b = input("Ingrese el valor de b: ")
-    
-    print (type(a));
-    print (type(b));
 
     if (a > b):
         print (f"El Mayor es {a}")
